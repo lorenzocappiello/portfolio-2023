@@ -1,38 +1,293 @@
-.App {
-  text-align: center;
+@font-face {
+    font-family: 'Aeonik Regular';
+    src: url(./font/Aeonik-Regular.woff);
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+  
+@font-face {
+    font-family: 'Aeonik Bolder';
+    src: url(./font/Aeonik-Bolder.woff);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* Navbar Section */
+
+li {
+    list-style: none;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+a {
+    text-decoration: none;
+    color: white; 
 }
 
-.App-link {
-  color: #61dafb;
+.nav-menu {
+   margin-left: 48px; 
+   margin-right: 48px; 
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-item {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    font-weight: 400;
+    display: flex;
+    justify-content: space-around;
+}
+
+.nav-link:hover {
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 2.2px;
+    text-decoration-color: #beda10;
+    text-decoration-thickness: 3px;
+}
+
+/* Hero Section */ 
+
+.header {
+    width: auto;
+    height: 100%; 
+    margin: 48px;
+}
+
+.hero-content {
+    position: absolute;
+    top: 50%;
+    transform: translate(0, -50%);
+}
+
+.welcome-title {
+    font-family: 'Aeonik Bolder';
+    font-size: 46px; 
+    color: white;
+    margin-bottom: 0px; 
+}
+
+.Typewriter {
+    font-family: 'Aeonik Regular';
+    font-size: 32px; 
+    font-weight: 400;
+    color: white;
+    margin-bottom: 24px; 
+}
+
+/* Social Networks */ 
+
+.social-networks {
+    font-size: 24px; 
+    margin-bottom: 96px; 
+}
+
+.fa {
+    border: 1.5px solid white; 
+    padding: 18px 20px; 
+    text-decoration: none;
+    color: white; 
+    margin-right: 12px; 
+}
+  
+.fa:hover {
+    background-color: #beda10;
+    border: 1px solid #beda10; 
+    color: black;
+}
+
+/* Let's connect */ 
+
+.hero-button {
+    margin-top: 516px;
+    text-align: right;
+    margin-bottom: 72px; 
+}
+
+.connection {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: transparent;
+    border: 1.5px solid white; 
+    color: white; 
+    padding: 12px 24px; 
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+.connection:hover {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: #beda10;
+    color: black; 
+    border: 1.5px solid #beda10; 
+    padding: 12px 24px; 
+    text-decoration: none;
+    align-self: flex-end;
+}
+
+/* Title Section */ 
+
+.title-section {
+    font-family: 'Aeonik Regular';
+    font-size: 36px; 
+    font-weight: 400;
+    color: white; 
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+    text-underline-offset: 4.4px;
+    text-decoration-color: #beda10;
+    text-decoration-thickness: 6px;
+}
+
+/* Media Query */ 
+
+@media screen and (min-width: 576px) {
+    .nav-menu {
+        margin-left: 52px; 
+        margin-right: 52px;
+    }
+    .nav-item {
+        font-size: 24px; 
+    }
+    .header {
+        margin: 58px; 
+    }
+    .welcome-title {
+        font-size: 56px; 
+    }
+    .Typewriter {
+        font-size: 36px; 
+    }
+    .social-networks {
+        font-size: 28px;
+    }
+    .connection {
+        font-size: 24px; 
+    }
+    .connection:hover {
+        font-size: 24px; 
+    }
+    .title-section {
+        font-size: 40px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .nav-menu {
+        margin-left: 56px; 
+        margin-right: 56px;
+    }
+    .nav-item {
+        font-size: 24px; 
+    }
+    .header {
+        margin: 68px; 
+    }
+    .welcome-title {
+        font-size: 66px; 
+    }
+    .Typewriter {
+        font-size: 40px; 
+    }
+    .social-networks {
+        font-size: 32px;
+    }
+    .connection {
+        font-size: 28px; 
+    }
+    .connection:hover {
+        font-size: 28px; 
+    }
+    .title-section {
+        font-size: 44px; 
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .nav-menu {
+        margin-left: 60px; 
+        margin-right: 60px;
+    }
+    .nav-item {
+        font-size: 24px; 
+    }
+    .header {
+        margin: 78px; 
+    }
+    .welcome-title {
+        font-size: 76px; 
+    }
+    .Typewriter {
+        font-size: 44px; 
+    }
+    .social-networks {
+        font-size: 36px;
+    }
+    .connection {
+        font-size: 32px; 
+    }
+    .connection:hover {
+        font-size: 32px; 
+    }
+    .title-section {
+        font-size: 48px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .nav-menu {
+        margin-left: 64px; 
+        margin-right: 64px;
+    }
+    .nav-item {
+        font-size: 24px; 
+    }
+    .header {
+        margin: 88px; 
+    }
+    .welcome-title {
+        font-size: 86px; 
+    }
+    .Typewriter {
+        font-size: 48px; 
+    }
+    .social-networks {
+        font-size: 40px;
+    }
+    .connection {
+        font-size: 36px; 
+    }
+    .connection:hover {
+        font-size: 36px; 
+    }
+    .title-section {
+        font-size: 52px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .nav-menu {
+        margin-left: 68px; 
+        margin-right: 68px;
+    }
+    .nav-item {
+        font-size: 28px; 
+    }
+    .header {
+        margin: 98px; 
+    }
+    .welcome-title {
+        font-size: 96px; 
+    }
+    .Typewriter {
+        font-size: 52px; 
+    }
+    .social-networks {
+        font-size: 44px;
+    }
+    .connection {
+        font-size: 40px; 
+    }
+    .connection:hover {
+        font-size: 40px; 
+    }
+    .title-section {
+        font-size: 56px; 
+    }
 }

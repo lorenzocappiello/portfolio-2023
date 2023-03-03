@@ -1,0 +1,142 @@
+.contacts-section {
+    width: auto;
+    margin: 48px;
+    padding-top: 48px; 
+    padding-bottom: 48px; 
+    height: 100%;
+}
+
+.contacts-content-general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.services, .contact-form {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.contact-form {
+    width: 60%; 
+}
+
+@media screen and (max-width: 996px) {
+    .contacts-content-general {
+        flex-direction: column;
+    }
+    .services, .contact-form {
+        width: 100%; 
+    }
+    .contact-form {
+        margin-top: 24px; 
+    }
+}
+
+/* Service Title & Items */ 
+
+.services-title {
+    font-family: 'Aeonik Regular';
+    font-size: 32px; 
+    font-weight: 800;
+    color: white;
+    margin-bottom: 24px; 
+}
+
+.services-item {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    color: white; 
+}
+
+.services-item:hover {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    color: #beda10; 
+}
+
+/* Email Link */ 
+
+.email-address-text {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    color: white; 
+    text-align: justify;
+}
+
+.email-link {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    color: white;
+}
+
+.email-link:hover {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    color: #beda10; 
+}
+
+@media screen and (min-width: 768px) {
+    .email-address-text {
+        font-size: 24px; 
+    }
+    .email-link, .email-link:hover {
+        font-size: 24px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .email-address-text {
+        font-size: 24px; 
+    }
+    .email-link, .email-link:hover {
+        font-size: 24px; 
+    }
+}
+
+/* Social Network */ 
+
+.social-networks-footer {
+    margin-top: 36px; 
+}
+
+/* Footer */
+
+.footer {
+    font-family: 'Aeonik Regular';
+    font-size: 12px; 
+    color: white;
+    margin-top: 32px; 
+    text-align: right;
+}
+
+/* Media Query */ 
+
+@media screen and (min-width: 576px) {
+    .contacts-section {
+        margin: 58px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .contacts-section {
+        margin: 68px; 
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .contacts-section {
+        margin: 78px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .contacts-section {
+        margin: 88px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .contacts-section {
+        margin: 98px; 
+    }
+}

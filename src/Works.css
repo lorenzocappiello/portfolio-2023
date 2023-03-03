@@ -1,0 +1,134 @@
+.works-section {
+    width: auto;
+    margin: 48px;
+    padding-top: 48px; 
+    padding-bottom: 48px; 
+    height: 100%;
+}
+
+.my-works-1 {
+    margin-bottom: 24px; 
+}
+
+.my-works-1, .my-works-2 {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-works-content-1, .my-works-content-2, .my-works-content-3 {
+    border: 2px solid white; 
+    padding: 3px; 
+    box-shadow: 6px 10px white;
+}
+
+.my-works-content-1, .my-works-content-2, .my-works-content-3 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: 30%; 
+    margin-bottom: 24px; 
+}
+
+@media screen and (max-width: 996px) {
+    .my-works-1 {
+        flex-direction: column;
+    }
+    .my-works-2 {
+        flex-direction: column;
+    }
+    .my-works-content-1, .my-works-content-2, .my-works-content-3 {
+        width: 100%; 
+        margin-bottom: 36px; 
+    }
+    .my-works-content-2, .my-works-content-3 {
+        margin-top: 12px; 
+    }
+}
+
+/* Works Text */ 
+
+.works-languages {
+    font-family: 'Aeonik Regular';
+    font-size: 12px; 
+    font-weight: 400;
+    color: #beda10; 
+    text-align: center;
+    margin-top: 36px; 
+    margin-bottom: -20px; 
+}
+
+.works-title {
+    font-family: 'Aeonik Regular';
+    font-size: 26px; 
+    font-weight: 400;
+    color: white; 
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.works-info {
+    font-family: 'Aeonik Regular';
+    font-size: 16px; 
+    color: white; 
+    line-height: 24px;
+    text-align: justify;
+    margin-left: 24px; 
+    margin-right: 24px; 
+}
+
+.works-button-div {
+    text-align: center;
+    margin-top: 36px; 
+    margin-bottom: 36px; 
+}
+
+.works-button {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: transparent;
+    border: 1.5px solid white; 
+    color: white; 
+    padding: 12px 24px; 
+    text-decoration: none;
+}
+
+.works-button:hover {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: #beda10;
+    border: 1.5px solid #beda10; 
+    color: black; 
+    padding: 12px 24px; 
+    text-decoration: none;
+}
+
+/* Media Query */ 
+
+@media screen and (min-width: 576px) {
+    .works-section {
+        margin: 58px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .works-section {
+        margin: 68px; 
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .works-section {
+        margin: 78px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .works-section {
+        margin: 88px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .works-section {
+        margin: 98px; 
+    }
+}

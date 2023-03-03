@@ -1,0 +1,254 @@
+.about-section {
+    width: auto;
+    margin: 48px;
+    padding-top: 48px; 
+    padding-bottom: 48px; 
+    height: 100%;
+}
+
+.about-content-general {
+    display: flex;
+    justify-content: space-between;
+}
+
+.about-content-1, .about-content-2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+}
+
+.about-content-1 {
+    width: 70%; 
+}
+
+.about-content-2 {
+    margin-top: 12px; 
+}
+
+@media screen and (max-width: 996px) {
+    .about-content-general {
+        flex-direction: column;
+    }
+    .about-content-1, .about-content-2 {
+        width: 100%; 
+    }
+    .about-content-2 {
+        margin-top: 24px; 
+    }
+}
+
+/* About Me - Text */
+
+.about-me {
+    font-family: 'Aeonik Regular';
+    font-size: 16px; 
+    color: white; 
+    line-height: 24px;
+    text-align: justify;
+}
+
+/* Foto */ 
+
+.photo {
+    text-align: center;
+}
+
+.circular-square {
+    width: 220px; 
+    height: 220px;
+    border: 3px solid white; 
+}
+
+@media screen and (min-width: 996px) {
+    .photo {
+        text-align: left;
+    }
+    .circular-square {
+        width: 280px; 
+        height: 280px;
+    }
+}    
+
+/* Button */ 
+
+.about-button {
+    text-align: center;
+    margin-top: 24px; 
+    margin-bottom: 12px; 
+}
+
+.cv-download, .work-with-me {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: transparent;
+    border: 1.5px solid white; 
+    color: white; 
+    padding: 12px 24px; 
+    text-decoration: none;
+}
+
+.work-with-me {
+    margin-top: 12px; 
+}
+
+.cv-download:hover, .work-with-me:hover {
+    font-family: 'Aeonik Regular';
+    font-size: 20px; 
+    background-color: #beda10;
+    border: 1.5px solid #beda10; 
+    color: black; 
+    padding: 12px 24px; 
+    text-decoration: none;
+}
+
+.work-with-me:hover {
+    margin-top: 12px; 
+}
+
+@media screen and (min-width: 996px) {
+    .about-button {
+        text-align: left;
+    }
+    .cv-download, .work-with-me {
+        font-size: 28px; 
+    }
+    .cv-download:hover, .work-with-me:hover {
+        font-size: 28px; 
+    }
+}   
+
+/* My Skills */
+
+.my-skills {
+    display: flex;
+    justify-content: space-between;
+}
+
+.my-skills-content-1, .my-skills-content-2 {
+    flex-grow: 0;
+    flex-shrink: 1;
+    width: 50%; 
+}
+
+.skills-title {
+    font-family: 'Aeonik Regular';
+    font-weight: 800;
+    color: white; 
+}
+
+.skills-percentual {
+    font-family: 'Aeonik Regular';
+    width: 80%;
+    background-color: #ddd; 
+}
+
+.html-percentual {
+    font-family: 'Aeonik Regular';
+    width: 90%; 
+    background-color: #beda10;
+}
+
+.html-percentual-text {
+    margin-left: 12px; 
+}
+
+.css-percentual {
+    font-family: 'Aeonik Regular';
+    width: 90%; 
+    background-color: #beda10;
+}
+
+.css-percentual-text {
+    margin-left: 12px; 
+}
+
+.js-percentual {
+    font-family: 'Aeonik Regular';
+    width: 60%; 
+    background-color: #beda10;
+}
+
+.js-percentual-text {
+    margin-left: 12px; 
+}
+
+.react-percentual {
+    font-family: 'Aeonik Regular';
+    width: 30%; 
+    background-color: #beda10;
+}
+
+.react-percentual-text {
+    margin-left: 12px; 
+}
+
+.java-percentual {
+    font-family: 'Aeonik Regular';
+    width: 65%; 
+    background-color: #beda10;
+}
+
+.java-percentual-text {
+    margin-left: 12px; 
+}
+
+.javaee-percentual {
+    font-family: 'Aeonik Regular';
+    width: 50%; 
+    background-color: #beda10;
+}
+
+.javaee-percentual-text {
+    margin-left: 12px; 
+}
+
+.sql-percentual {
+    font-family: 'Aeonik Regular';
+    width: 80%; 
+    background-color: #beda10;
+}
+
+.sql-percentual-text {
+    margin-left: 12px; 
+}
+
+.jsp-percentual {
+    font-family: 'Aeonik Regular';
+    width: 50%; 
+    background-color: #beda10;
+}
+
+.jsp-percentual-text {
+    margin-left: 12px; 
+}
+
+/* Media Query */ 
+
+@media screen and (min-width: 576px) {
+    .about-section {
+        margin: 58px; 
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .about-section {
+        margin: 68px; 
+    }
+}
+
+@media screen and (min-width: 996px) {
+    .about-section {
+        margin: 78px; 
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .about-section {
+        margin: 88px; 
+    }
+}
+
+@media screen and (min-width: 1400px) {
+    .about-section {
+        margin: 98px; 
+    }
+}
