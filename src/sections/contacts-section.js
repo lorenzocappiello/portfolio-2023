@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/lorenzocappiello/Desktop/portfolio 2023/src/Contacts.css';
+import '/Users/lorenzocappiello/Desktop/portfolio-2023/src/Contacts.css';
 
 function ContactsSection() {
 

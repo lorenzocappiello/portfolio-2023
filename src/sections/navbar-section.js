@@ -1,5 +1,5 @@
 import React from "react";
-import '/Users/lorenzocappiello/Desktop/portfolio 2023/src/App.css'; 
+import '/Users/lorenzocappiello/Desktop/portfolio-2023/src/App.css'; 
 
 function NavbarSection() {
 

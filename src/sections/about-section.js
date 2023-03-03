@@ -1,6 +1,6 @@
 import React from "react";
-import '/Users/lorenzocappiello/Desktop/portfolio 2023/src/About.css';
-import Foto from '/Users/lorenzocappiello/Desktop/portfolio 2023/src/sections/foto-profilo.jpg';
+import '/Users/lorenzocappiello/Desktop/portfolio-2023/src/About.css';
+import Foto from '/Users/lorenzocappiello/Desktop/portfolio-2023/src/sections/foto-profilo.jpg';
 
 function AboutSection() {
 
